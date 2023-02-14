@@ -14,7 +14,7 @@ async function test() {
   await driver.findElement(By.className("shopping_cart_link")).click();
   await driver.findElement(By.id("checkout")).click();
 
-  await driver.findElement(By.id("first-name")).sendKeys("Muhammad Fahim");
+  await driver.findElement(By.id("first-name")).sendKeys("Md Fahim Mia");
   await driver.findElement(By.id("last-name")).sendKeys("2018831064");
   await driver.findElement(By.id("postal-code")).sendKeys("OKKK");
 
